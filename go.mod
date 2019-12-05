@@ -6,6 +6,8 @@ go 1.13
 
 // replace github.com/netfoundry/ziti-fabric => ../ziti-fabric
 
+// replace github.com/netfoundry/ziti-foundation => ../ziti-foundation
+
 require (
 	github.com/Jeffail/gabs v1.4.0
 	github.com/MakeNowJust/heredoc v1.0.0
@@ -21,9 +23,9 @@ require (
 	github.com/keybase/go-ps v0.0.0-20190827175125-91aafc93ba19
 	github.com/michaelquigley/pfxlog v0.0.0-20190813191113-2be43bd0dccc
 	github.com/mitchellh/gox v1.0.1 // indirect
-	github.com/netfoundry/ziti-edge v0.0.0-20191204212244-2a638dc8a523
-	github.com/netfoundry/ziti-fabric v0.0.0-20191204210924-9ae5128a3754
-	github.com/netfoundry/ziti-foundation v0.0.0-20191204210425-111b73773d5b
+	github.com/netfoundry/ziti-edge v0.0.0-20191205164904-de9e182f694e
+	github.com/netfoundry/ziti-fabric v0.0.0-20191205164835-c362b4bc1967
+	github.com/netfoundry/ziti-foundation v0.0.0-20191205164731-efc9655e806a
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.8.1
 	github.com/rcrowley/go-metrics v0.0.0-20190826022208-cac0b30c2563
